@@ -14,7 +14,7 @@ body{
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: 50px;
+    z-index: 50;
 }
 .header::before{
     content: '';
@@ -44,7 +44,7 @@ header{
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    height: 50px;
+    
 }
 .logo{
     display: flex;
@@ -75,6 +75,7 @@ header{
 }
 .nav_main li{
     margin-left: 20px;
+    padding: 20px 5px;
 }
 
 .header_nav a:hover{
@@ -89,6 +90,7 @@ header{
 }
 .nav_button ul{
     margin-right: 20px;
+    
 }
 .btn{
     font-family: Poppins;
@@ -528,7 +530,7 @@ footer a{
         z-index: 0;
         overflow: auto;
         display: inline-block;
-        overflow: auto;
+
     }
     .cards {
         grid-template-columns: repeat(2, 1fr);
